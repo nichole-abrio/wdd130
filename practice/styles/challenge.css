@@ -1,0 +1,42 @@
+body{
+    background-color: pink;
+    padding: 0 20%;
+    font-family:sans-serif;
+    color: aliceblue;
+    text-align: center;
+   }
+img{
+    display: block;
+    margin: 5% auto;
+    width: 50%;
+}
+li{
+    text-align: left;
+    color: black;
+    font-weight: bold;
+}
+#quote-1{
+    font-size: smaller;
+}
+#quote-2{
+    font-size: 200%;
+    display: block;
+    padding: 0% 14%;
+}
+#author-1{
+    font-weight: bold;
+}
+.author-2{
+
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    color: black;
+}
+.author-3{
+    margin-top: 0px;
+    padding-top: 0px;
+    color: black;
+}
+h1:hover{
+    color: black;
+}
