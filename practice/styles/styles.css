@@ -7,11 +7,15 @@
     background-color: white;
     color: steelblue;
 } */
+h1{
+    margin: 50px 0;
+}
 
 img{
     width: 80%;
     display: block;
     margin: 0 auto;
+    border: 4px outset blueviolet;
 }
 
 main p{
@@ -24,16 +28,31 @@ p{
 }
 
 a{
+    color: white;
     font-size: 1.5em;
+    text-decoration: none;
+    padding: 25px;
 }
 
 *{
     border: 2px solid blue;
 }
 
-nav, footer{
+nav{
     background-color: steelblue;
     color: white;
     padding: 10px;
     text-align: center;
+}
+body{
+    margin: 0;
+}
+
+footer{
+    background-color: steelblue;
+    color: white;
+}
+
+footer p{
+    padding: 25px;
 }
