@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(80, 78, 78);
+    margin: 0;
+}
+
+.circle{
+    width: 20%;
+    border-radius: 50%;
+    border: 12px rgb(41, 41, 41) solid;
+    margin: 4.5%;
+}
+
+#big{
+    width: 100%;
+    border: 0;
+}
