@@ -242,7 +242,7 @@
 .hint i:before, .hint i:after {
   content: "";
   position: absolute;
-  background-color: black;
+   ;
   width: 3px;
   height: 9px;
 }
