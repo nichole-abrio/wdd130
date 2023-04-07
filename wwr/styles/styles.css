@@ -10,6 +10,7 @@ body{
     font-size: 22px;
     font-family: "Sofia Sans", Lato, Helvetica, sans-serif;
     margin: 0;
+    height: 100%;
     padding: 0;
 }
 
@@ -248,9 +249,15 @@ main section img{
 }
 
 
-#background-img{
+#faq-img-container{
     position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image:url(https://nichole-abrio.github.io/wdd130/wwr/images/mountains-river-with-rocky-riverside-pyrenees.jpg);
+    background-position: center;
     opacity: 0.7;
+    background-repeat:no-repeat;
+    background-size: cover;
     z-index: -1;
 }
 
