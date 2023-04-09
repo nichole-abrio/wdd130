@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville|Lato|Ubuntu|League+Spartan|Domine');
+@import url('https://fonts.googleapis.com/css?family=Lato|Ubuntu');
 
 * {
   box-sizing: border-box;
@@ -163,7 +163,7 @@ img {
 #grid1{
   display: grid;
   grid-template-columns: auto auto;
-  grid-template-rows: repeat(auto, 3);
+  grid-template-rows: repeat(3, auto);
   gap: 20px;
 }
 
@@ -553,7 +553,7 @@ img {
   text-align: center;
   margin-top: 5em;
   margin-bottom: 3em;
-  margin-left: em;
+  /* margin-left: em; */
   cursor: pointer;
   padding: 10px;
 }
@@ -601,7 +601,7 @@ img {
 
 #bs-text h1{
   margin-right: -3px;
-  text-align: rightf;
+  text-align: right;
 }
 
 
